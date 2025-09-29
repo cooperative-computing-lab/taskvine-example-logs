@@ -1,0 +1,12 @@
+---
+name: taskvine-examples
+channels:
+ - conda-forge
+dependencies:
+ - ndcctools  # required to get vine_plot_* scripts
+ - gnuplot    # required by vine_graph_log
+ - bokeh      # required by vine_plot_txn_log
+ - matplotlib # required by vine_plot_txn_log
+ - pandas     # required by vine_plot_txn_log
+ - graphviz   # required by vine_plot_taskgraph
+...

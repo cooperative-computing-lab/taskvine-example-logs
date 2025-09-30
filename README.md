@@ -122,5 +122,23 @@ Then run:
 <td><a href=examples/rstriphoton/plots/performance.transfer.png><img src=examples/rstriphoton/plots/performance.transfer.png width=250>
 <td><a href=examples/rstriphoton/plots/performance.times-stacked.png><img src=examples/rstriphoton/plots/performance.times-stacked.png width=250>
 <td><a href=examples/rstriphoton/plots/txn-workers.png><img src=examples/rstriphoton/plots/txn-workers.png width=250>
+<tr>
+<td><h2>dv5</h2>
+<ul>
+<li><a href=examples/dv5/vine-logs/debug>debug</a>
+<li><a href=examples/dv5/vine-logs/taskgraph>taskgraph</a>
+<li><a href=examples/dv5/vine-logs/transactions>transactions</a>
+<li><a href=examples/dv5/vine-logs/performance>performance</a>
+<td><a href=examples/dv5/plots/performance.tasks.png><img src=examples/dv5/plots/performance.tasks.png width=250>
+<td><a href=examples/dv5/plots/performance.tasks-accum.png><img src=examples/dv5/plots/performance.tasks-accum.png width=250>
+<td><a href=examples/dv5/plots/performance.workers.png><img src=examples/dv5/plots/performance.workers.png width=250>
+<td><a href=examples/dv5/plots/performance.workers-accum.png><img src=examples/dv5/plots/performance.workers-accum.png width=250>
+<td><a href=examples/dv5/plots/performance.workers-disk.png><img src=examples/dv5/plots/performance.workers-disk.png width=250>
+<tr><td>
+<td><a href=examples/dv5/plots/performance.time-manager.png><img src=examples/dv5/plots/performance.time-manager.png width=250>
+<td><a href=examples/dv5/plots/performance.time-workers.png><img src=examples/dv5/plots/performance.time-workers.png width=250>
+<td><a href=examples/dv5/plots/performance.transfer.png><img src=examples/dv5/plots/performance.transfer.png width=250>
+<td><a href=examples/dv5/plots/performance.times-stacked.png><img src=examples/dv5/plots/performance.times-stacked.png width=250>
+<td><a href=examples/dv5/plots/txn-workers.png><img src=examples/dv5/plots/txn-workers.png width=250>
 </table>
 

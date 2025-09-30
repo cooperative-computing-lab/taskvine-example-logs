@@ -141,4 +141,3 @@ Then run:
 <td><a href=examples/dv5/plots/performance.times-stacked.png><img src=examples/dv5/plots/performance.times-stacked.png width=250>
 <td><a href=examples/dv5/plots/txn-workers.png><img src=examples/dv5/plots/txn-workers.png width=250>
 </table>
-

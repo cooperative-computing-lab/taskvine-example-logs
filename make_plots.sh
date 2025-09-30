@@ -1,6 +1,6 @@
 #!/bin/sh
 
-WORKFLOWS="lnni examol montage-base montage-groups rstriphoton"
+WORKFLOWS="lnni examol montage-base montage-groups rstriphoton dv5"
 
 for workflow in ${WORKFLOWS}
 do

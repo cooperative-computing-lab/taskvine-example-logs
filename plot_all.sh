@@ -2,15 +2,15 @@
 
 for workflow in lnni examol montage-base montage-groups rstriphoton
 do
-	mkdir -p ${workflow}/plots
+	mkdir -p examples/${workflow}/plots
 
 	echo "plotting ${workflow} performance log (usually fast)"
-	vine_graph_log -Tpng -o ${workflow}/plots/performance ${workflow}/vine-logs/performance
+	vine_graph_log -Tpng -o examples/${workflow}/plots/performance examples/${workflow}/vine-logs/performance
 
 	echo "plotting ${workflow} transaction log (usually a bit slower)"
-	vine_plot_txn_log --mode workers ${workflow}/vine-logs/transactions ${workflow}/plots/txn-workers.png
+	vine_plot_txn_log --mode workers examples/${workflow}/vine-logs/transactions examples/${workflow}/plots/txn-workers.png
 
 	#echo "plotting ${workflow} taskgraph (usually sloooww)"
-	#dot -Tpng ${workflow}/vine-logs/taskgraph > ${workflow}/plots/taskgraph.png
+	#dot -Tpng examples/${workflow}/vine-logs/taskgraph > examples/${workflow}/plots/taskgraph.png
 done
 

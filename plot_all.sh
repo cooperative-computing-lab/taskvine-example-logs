@@ -1,6 +1,8 @@
 #!/bin/sh
 
-for workflow in lnni examol montage-base montage-groups rstriphoton
+WORKFLOWS=lnni examol montage-base montage-groups rstriphoton
+
+for workflow in ${WORKFLOWS}
 do
 	mkdir -p examples/${workflow}/plots
 
@@ -14,3 +16,17 @@ do
 	#dot -Tpng examples/${workflow}/vine-logs/taskgraph > examples/${workflow}/plots/taskgraph.png
 done
 
+echo "<table>"
+for workflow in ${WORKFLOWS}
+do
+    echo "<tr>"
+    for type in tasks tasks-capacities tasks-accum workers workers-accum workers-disk time-manager time-workers transfer times-stacked
+    do
+	echo "<td><img src=examples/${workflow}/plots/performance.${type}.png>"
+    done
+    for type in txn-workers taskgraph
+    do
+	echo "<td><img src=examples/${workflow}/plots/${type}.png>"
+    done
+done
+echo "</table>"

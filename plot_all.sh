@@ -1,6 +1,6 @@
 #!/bin/sh
 
-for workflow in lnni examol
+for workflow in lnni examol montage-base montage-groups rstriphoton
 do
 	mkdir -p ${workflow}/plots
 

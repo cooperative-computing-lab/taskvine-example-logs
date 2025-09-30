@@ -25,7 +25,7 @@ conda activate taskvine-example-logs
 
 Then run:
 ```
-./plot_all.sh
+./make_plots.sh
 ./make_index.sh
 ```
 
